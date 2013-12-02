@@ -6,7 +6,8 @@ Install requirements:
 Setup a test client:
     Go to the admin page and create a client.
     Make sure the redirect url is set to:
-        http://{YOUR_SERVER}/api/v1/oauth2/auth_code
+
+        https://www.readycloud.com/api/v1/oauth2/auth_code
 
 Look at help text:
 
