@@ -41,9 +41,12 @@ Look at help text:
                             separated. ex "xml_backup" or "xml_backup orders"
 
 Example Usage:
-    On first run:
+    
+On first run:
+
         python readycloud.py authorize --client-id=0e6b45f3b6c962ae39f49c514f2f4d --api-endpoint https://www.readycloud.com/api/v1/ --redirect-uri https://www.readycloud.com/api/v1/oauth2/auth_code
 
-    Follow the instructions and then after you are authorized:
+Follow the instructions and then after you are authorized:
+
         python readycloud.py list_orders csv -a https://www.readycloud.com/api/v1/
 
